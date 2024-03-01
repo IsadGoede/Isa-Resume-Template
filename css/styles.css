@@ -8,35 +8,84 @@
 body {
 	font-family: Lato, "Open Sans", Roboto, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color: #202030;
-	background-color: #f8f8fc;
+	background-color: #F9F3EB;
+}
+p{
+	font-weight: 900;
+}
+h2{
+	font-weight: bolder;
 }
 
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
 .resume-header {
-    background-color: #e0f0ff;
+	font-variant-caps: all-petite-caps; 
+	font-weight: bold; 
+	color:#F62315 
 }
 
 .resume-main {
-	background-color: #fffefc;
+	background-color: #Ffffff;
+	font-variant-caps: all-petite-caps;
+	font-weight: lighter;
+	font-family: courier Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace"
 }
 
+.header-1{
+	color: #DD919F
+}
+
+.header-2{
+	color: #B5BB6B
+}
+
+.test{
+  box-shadow: inset 0 0 0 0 #F62315;
+  color: #F62315;
+  padding: 0 .25rem;
+  margin: 0 -.25rem;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+	font-variant-caps: all-petite-caps;
+	font-weight: lighter;
+	font-family: courier Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace"
+}
+.test:hover {
+  color: #F62315;
+  box-shadow: inset 320px 0 0 0 #B5BB6B;
+}
+
+
+
 .resume-aside {
-	background-color: #fff0e0;
+	background-color: #EFE0CC;
+	font-variant-caps: all-petite-caps;
+	font-weight: lighter;
+	border-style: dotted; 
+	border-color: #F62315
 }
 
 /* Styles for lists in the document */
 
 .biography-details li::before, .skill-list li::before {
-	content: ">";
+	content: "♥";
 	font-weight: 800;
 	display: inline-block;
 	width: 1em;
 	margin-left: -1em;
 }
 
+.border-color {
+	border-color: #F1080C;
+	outline-color: aqua
+}
+
+.languages {
+	border: #B5BB6B
+	
+}
 .biography-details li::before {
-	color: #EE7623;
+	color: #DD919F;
 }
 
 .biography-details li, .skill-list li {
@@ -48,4 +97,5 @@ body {
 .contact-icon {
 	height: 1em;
 	flex-basis: 1.4em;
+	color: #B5BB6B; 
 }
