@@ -10,13 +10,19 @@ body {
 	color: #202030;
 	background-color: #F9F3EB;
 }
+
 p{
 	font-weight: 900;
 }
+
+
 h2{
 	font-weight: bolder;
 }
 
+li{
+	color: black;
+}
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
 .resume-header {
@@ -80,10 +86,15 @@ h2{
 	outline-color: aqua
 }
 
-.languages {
-	border: #B5BB6B
 	
+.language-level{
+	border-color: #F1080C !important;
 }
+
+.language-progress{
+	background-color:#DD919F !important;
+}
+
 .biography-details li::before {
 	color: #DD919F;
 }
