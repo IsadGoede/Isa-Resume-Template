@@ -8,65 +8,23 @@
 body {
 	font-family: Lato, "Open Sans", Roboto, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color: #202030;
-	background-color: #F9F3EB;
+	background-color: #f8f8fc;
 }
 
-p{
-	font-weight: 900;
-}
-
-
-h2{
-	font-weight: bolder;
-}
-
-li{
-	color: black;
-}
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
 .resume-header {
-	font-variant-caps: all-petite-caps; 
-	font-weight: bold; 
-	color:#F62315 
+    background-color:#F9F3EB
 }
 
 .resume-main {
-	background-color: #Ffffff;
-	font-variant-caps: all-petite-caps;
-	font-weight: lighter;
-	font-family: courier Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace"
+	background-color: #fffefc;
 }
-
-.header-1{
-	color: #DD919F
-}
-
-.header-2{
-	color: #B5BB6B
-}
-
-.test{
-  box-shadow: inset 0 0 0 0 #F62315;
-  color: #F62315;
-  padding: 0 .25rem;
-  margin: 0 -.25rem;
-  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
-	font-variant-caps: all-petite-caps;
-	font-weight: lighter;
-	font-family: courier Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace"
-}
-.test:hover {
-  color: #F62315;
-  box-shadow: inset 320px 0 0 0 #B5BB6B;
-}
-
-
 
 .resume-aside {
 	background-color: #EFE0CC;
+	font-family: "quicksand", sans-serif;
 	font-variant-caps: all-petite-caps;
-	font-weight: lighter;
 	border-style: dotted; 
 	border-color: #F62315
 }
@@ -79,24 +37,11 @@ li{
 	display: inline-block;
 	width: 1em;
 	margin-left: -1em;
-}
-
-.border-color {
-	border-color: #F1080C;
-	outline-color: aqua
-}
-
-	
-.language-level{
-	border-color: #F1080C !important;
-}
-
-.language-progress{
-	background-color:#DD919F !important;
+	color: #DD919F !important;
 }
 
 .biography-details li::before {
-	color: #DD919F;
+	color: #EE7623;
 }
 
 .biography-details li, .skill-list li {
@@ -108,5 +53,90 @@ li{
 .contact-icon {
 	height: 1em;
 	flex-basis: 1.4em;
-	color: #B5BB6B; 
 }
+
+.courier-prime-regular {
+  font-family: "Courier Prime", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.courier-prime-bold {
+  font-family: "Courier Prime", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.courier-prime-regular-italic {
+  font-family: "Courier Prime", monospace;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.courier-prime-bold-italic {
+  font-family: "Courier Prime", monospace;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.biography-section {
+	font-family: "Abril Fatface", serif;
+	box-shadow: inset 0 0 0 0 #F62315;
+}
+
+.first-heading {
+	color: #F62315;
+  	padding: 0 .25rem;
+  	margin: 0 -.25rem;
+  	transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+	font-family: "Abril Fatface", serif !important; 
+	font-variant-caps:normal !important;
+}
+
+.first-heading:hover {
+  color: #F62315;
+  box-shadow: inset 320px 0 0 0 #B5BB6B;
+}
+
+.second-header {
+	color:#DD919F !important;
+	font-family: "Quicksand", sans-serif;
+}
+
+.third-header{
+	color:#B5BB6B !important;
+}
+
+
+.abril-fatface-regular {
+  font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.quicksand-font {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.biography-contents {
+	font-family: "quicksand", sans-serif;
+	font-variant-caps: all-petite-caps;
+}
+
+.language-level{
+	border-color: #F1080C !important;
+}
+
+.language-progress{
+	background-color:#DD919F !important;
+}
+
+.header-content{
+	font-family: "Abril Fatface", serif;
+  	font-weight: 400;
+  	font-style: normal;
+}
+
